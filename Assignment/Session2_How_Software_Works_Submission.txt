@@ -1,0 +1,29 @@
+SESSION 2 - HOW SOFTWARE WORKS
+Name: Vraj
+Course: Software Engineering - Module 1
+
+1. Three Main Layers of Software Architecture
+- UI / Presentation Layer: What the user sees and interacts with - buttons, forms, screens
+- Business Logic Layer: Processes the rules, calculations, and decisions behind the app
+- Database Layer: Stores and retrieves all persistent data permanently
+
+2. Client and Server
+A client is the device or app that sends a request for information, such as your phone opening the Instagram app. A server is a remote computer that receives that request, processes it, and sends back a response - for example, Instagram's server retrieving your friends' latest posts and sending them back to your phone.
+
+3. Desktop vs Web vs Mobile Apps
+Desktop App:
+- Installed on one computer and works offline
+- Must be updated manually on each machine
+
+Web App:
+- Runs in a browser with no installation needed
+- Requires an internet connection to work
+
+Mobile App:
+- Installed on a phone and can access hardware (camera, GPS)
+- Must be built separately for Android and iOS
+
+4. Three Databases - SQL or NoSQL
+- MySQL: SQL
+- MongoDB: NoSQL
+- PostgreSQL: SQL

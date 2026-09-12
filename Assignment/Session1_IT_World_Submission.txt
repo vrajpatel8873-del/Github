@@ -1,0 +1,38 @@
+SESSION 1 - WELCOME TO THE IT WORLD
+Name: Vraj
+Course: Software Engineering - Module 1
+
+1. Five IT Job Roles
+- Developer: Writes and maintains code for features
+- Tester / QA: Finds and logs bugs before users do
+- UI/UX Designer: Designs screens, flows, and user experience
+- Data Analyst: Turns raw data into business decisions
+- AI / ML Engineer: Builds and trains intelligent models
+
+2. Product vs Service Companies
+Product Companies:
+- Zoho - builds and sells cloud-based CRM, Finance, and HR software to over 100 million users worldwide.
+- Google - builds and owns its own search engine and advertising platform used globally.
+- Freshworks - builds and sells its own customer engagement and support software products.
+
+Service Companies:
+- TCS - builds custom software and IT solutions on contract for banking and enterprise clients.
+- Infosys - delivers outsourced IT consulting and software projects for global businesses.
+- Wipro - manages IT infrastructure and software delivery projects for client companies.
+
+3. Tools & Terms - Full Forms and Uses
+- GitHub: (no full form) - Stores code and tracks every change for team collaboration
+- Slack: (no full form) - Team messaging organised by channel for quick communication
+- Jira: (no full form) - Task board for sprint planning and tracking work status
+- IDE (Integrated Development Environment): Software (e.g. VS Code) used to write, test, and debug code
+- API (Application Programming Interface): Lets two software systems exchange data with each other
+
+4. Five Programming Languages & Use Cases
+- Python: Data analysis and AI/ML model building
+- JavaScript: Building interactive front-end web pages
+- Java: Enterprise applications and Android app development
+- SQL: Querying and managing relational databases
+- C++: Performance-critical systems and game engines
+
+5. Developer vs Tester
+A developer writes the code that builds an application's features. A tester checks that code for bugs and confirms it works correctly before it reaches users.

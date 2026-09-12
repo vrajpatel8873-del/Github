@@ -1,0 +1,36 @@
+SESSION 5 - GIT & VERSION CONTROL
+Name: Vraj
+Course: Software Engineering - Module 1
+
+1. Git Commands
+- Initialize a repo: git init
+- Stage all files: git add .
+- Commit with a message: git commit -m "Your message here"
+- Push to remote: git push -u origin main
+- Pull latest changes: git pull origin main
+
+2. git fetch vs git pull
+git fetch downloads the latest changes from the remote repository but does not merge them into your local branch. git pull does the same download and then automatically merges those changes into your current branch.
+
+3. New GitHub Repo + Push a File
+Steps performed:
+1. Created a new repository on GitHub (this repo)
+2. git clone https://github.com/<username>/<repo-name>.git
+3. cd <repo-name>
+4. Created a small text file, e.g. notes.txt
+5. git add .
+6. git commit -m "Add notes file"
+7. git push -u origin main
+Repo link: [paste your GitHub repo URL here]
+
+4. Fork vs Pull Request
+A Fork creates your own personal copy of someone else's repository under your account, so you can make changes freely without affecting the original. A Pull Request is a request to merge changes from your branch (or fork) back into the original repository for review and approval.
+
+5. Create Branch, Commit, and Merge
+Commands used:
+git checkout -b feature-test
+(made a small change to a file)
+git add .
+git commit -m "Add change on feature-test branch"
+git checkout main
+git merge feature-test
