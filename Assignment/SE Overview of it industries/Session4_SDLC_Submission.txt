@@ -1,0 +1,30 @@
+SESSION 4 - SOFTWARE DEVELOPMENT LIFECYCLE (SDLC)
+Name: Vraj
+Course: Software Engineering - Module 1
+
+1. The 6 SDLC Phases
+1. Requirements - Gather what the software must do from business and users
+2. Design - Plan the architecture, UI layout, and database structure
+3. Development - Write the actual code based on the design specifications
+4. Testing - Find and fix defects before the software reaches users
+5. Deployment - Release the tested software to real users in production
+6. Maintenance - Monitor, fix issues, and ship improvements after launch
+
+2. Agile vs Waterfall (3 differences)
+- Waterfall: Requirements are fixed upfront before work starts | Agile: Requirements evolve sprint by sprint based on feedback
+- Waterfall: Phases run in strict sequence; going back is expensive | Agile: Work happens in short, repeatable 1-4 week sprints
+- Waterfall: Long gap before the first working product is delivered | Agile: Small working software is delivered every sprint
+
+3. Three Scrum Roles
+- Product Owner (PO): Decides what to build next and owns the product backlog
+- Scrum Master: Removes blockers and keeps the team following Scrum practices
+- Development Team: Designers, developers, and testers who build the product together
+
+4. What is a Sprint?
+A Sprint is a fixed, time-boxed cycle in which the Scrum team plans, builds, and delivers a working piece of software. It typically lasts 1-2 weeks.
+
+5. Jira Board Columns
+- Backlog: Work that is planned but not yet started
+- To Do: Work assigned to the current sprint but not started
+- In Progress: Work actively being worked on right now
+- Done: Work that is complete and has been reviewed

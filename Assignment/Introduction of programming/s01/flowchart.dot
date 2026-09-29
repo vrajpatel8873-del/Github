@@ -1,0 +1,17 @@
+digraph G { rankdir=TB; node [fontname="Helvetica", fontsize=11];
+ s [label="Start", shape=oval, style=filled, fillcolor="#d5f5e3"];
+ a [label="Open BookMyShow app", shape=box];
+ b [label="Select city", shape=box];
+ c [label="Choose movie", shape=box];
+ d [label="Choose theatre & show time", shape=box];
+ e [label="Seats available?", shape=diamond];
+ f [label="Select seats", shape=box];
+ g [label="Confirm order summary", shape=box];
+ h [label="Make payment", shape=box];
+ i [label="Payment successful?", shape=diamond];
+ j [label="Receive booking confirmation (SMS/email/QR)", shape=box];
+ t [label="End", shape=oval, style=filled, fillcolor="#fadbd8"];
+ s->a->b->c->d->e;
+ e->f [label="Yes"]; e->d [label="No (pick another show)"];
+ f->g->h->i; i->j [label="Yes"]; i->h [label="No (retry)"]; j->t;
+}

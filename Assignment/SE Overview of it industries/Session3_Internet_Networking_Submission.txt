@@ -1,0 +1,30 @@
+SESSION 3 - INTERNET & NETWORKING BASICS
+Name: Vraj
+Course: Software Engineering - Module 1
+
+1. Full Form and One-Line Use
+- HTTP (HyperText Transfer Protocol): Transfers web pages from a server to a browser
+- HTTPS (HTTP Secure): Same as HTTP but encrypted so data cannot be read in transit
+- FTP (File Transfer Protocol): Transfers files between two computers over a network
+- SMTP (Simple Mail Transfer Protocol): Sends email from one mail server to another
+
+2. IPv4 vs IPv6
+IPv4 uses a 32-bit address written as four numbers separated by dots (e.g. 192.168.1.1) and supports about 4.3 billion addresses. IPv6 uses a 128-bit hexadecimal address and supports virtually unlimited addresses, which is why the internet is gradually shifting to it.
+
+3. nslookup google.com - IP Address
+Run on your own system to complete this item:
+  Command: nslookup google.com
+IP address returned: [fill in after running on your system]
+
+4. HTTP Status Codes
+- 200: Request succeeded - everything is fine
+- 301: The page has moved to a new URL permanently
+- 404: The page or file does not exist on the server
+- 500: Something went wrong on the server side
+- 403: The server understood the request but refuses to allow access
+
+5. DNS Hierarchy - www.google.com
+- Root (.): The invisible top of all DNS, managed globally by ICANN
+- TLD (.com): Indicates the domain category/country
+- Domain (google): The unique name registered by the company
+- Subdomain (www): A prefix that organises a specific service under the domain
