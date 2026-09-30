@@ -1,0 +1,81 @@
+================================================================================
+SAMPLE PROGRAM RUN: TASK 4 - PERSONAL EXPENSE LOGGER
+================================================================================
+
+$ ./personal_expense_logger
+===================================================
+              PERSONAL EXPENSE LOGGER              
+===================================================
+
+------------------- MAIN MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+-------------------------------------------------
+Enter your choice (1-3): 1
+
+--- Add Expense #1 ---
+Enter Expense Category (e.g. Food, Travel, Books): Groceries
+Enter Amount: 45.50
+[+] Expense recorded successfully! (Total entries: 1/10)
+
+------------------- MAIN MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+-------------------------------------------------
+Enter your choice (1-3): 1
+
+--- Add Expense #2 ---
+Enter Expense Category (e.g. Food, Travel, Books): Textbooks
+Enter Amount: 85.00
+[+] Expense recorded successfully! (Total entries: 2/10)
+
+------------------- MAIN MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+-------------------------------------------------
+Enter your choice (1-3): 1
+
+--- Add Expense #3 ---
+Enter Expense Category (e.g. Food, Travel, Books): Coffee & Snacks
+Enter Amount: 14.25
+[+] Expense recorded successfully! (Total entries: 3/10)
+
+------------------- MAIN MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+-------------------------------------------------
+Enter your choice (1-3): 2
+
+===================================================
+                  EXPENSE REPORT                   
+===================================================
++----+--------------------------------+------------+
+| #  | Category                       | Amount ($) |
++----+--------------------------------+------------+
+| 1  | Groceries                      |      45.50 |
+| 2  | Textbooks                      |      85.00 |
+| 3  | Coffee & Snacks                |      14.25 |
++----+--------------------------------+------------+
+|    | RUNNING TOTAL                  |     144.75 |
++----+--------------------------------+------------+
+
+------------------- MAIN MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+-------------------------------------------------
+Enter your choice (1-3): 3
+
+Saving records to 'expenses.txt'...
+[SUCCESS]: 3 expense record(s) successfully written to 'expenses.txt'.
+Thank you for using Personal Expense Logger. Exiting.
+
+
+--- CONTENTS OF GENERATED expenses.txt ---
+Groceries,45.50
+Textbooks,85.00
+Coffee & Snacks,14.25

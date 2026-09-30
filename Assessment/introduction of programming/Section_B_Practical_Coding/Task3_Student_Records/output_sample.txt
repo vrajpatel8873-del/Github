@@ -1,0 +1,45 @@
+================================================================================
+SAMPLE PROGRAM RUN: TASK 3 - STUDENT RECORD MANAGER
+================================================================================
+
+$ ./student_record_manager
+=======================================================
+                STUDENT RECORD MANAGER                 
+=======================================================
+Please enter details for 3 students:
+
+--- Student #1 ---
+Enter Roll Number: 101
+Enter Full Name  : Aarav Sharma
+Enter Marks (%)  : 92.5
+
+--- Student #2 ---
+Enter Roll Number: 102
+Enter Full Name  : Priya Patel
+Enter Marks (%)  : 84.0
+
+--- Student #3 ---
+Enter Roll Number: 103
+Enter Full Name  : Rohan Mehta
+Enter Marks (%)  : 68.5
+
+
+=======================================================
+                  STUDENT GRADE REPORT                 
+=======================================================
++---------+--------------------------------+--------+-------+
+| Roll No | Student Name                   | Marks  | Grade |
++---------+--------------------------------+--------+-------+
+| 101     | Aarav Sharma                   |  92.50 |   A   |
+| 102     | Priya Patel                    |  84.00 |   B   |
+| 103     | Rohan Mehta                    |  68.50 |   C   |
++---------+--------------------------------+--------+-------+
+
+=======================================================
+                    TOP PERFORMER                      
+=======================================================
+Name       : Aarav Sharma
+Roll No    : 101
+Marks      : 92.50%
+Grade      : A
+=======================================================

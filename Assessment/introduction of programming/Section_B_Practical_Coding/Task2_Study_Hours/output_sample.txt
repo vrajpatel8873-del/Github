@@ -1,0 +1,39 @@
+================================================================================
+SAMPLE PROGRAM RUN: TASK 2 - WEEKLY STUDY HOURS ANALYSER
+================================================================================
+
+$ ./study_hours_analyser
+====================================================
+            WEEKLY STUDY HOURS ANALYSER            
+====================================================
+Please enter the study hours for each of the 7 days.
+(Valid range: 0.0 to 24.0 hours per day)
+
+Day 1 study hours: -2.0
+  [!] Out of range! Hours must be between 0 and 24. Please re-enter.
+Day 1 study hours: 28.5
+  [!] Out of range! Hours must be between 0 and 24. Please re-enter.
+Day 1 study hours: 4.5
+Day 2 study hours: 6.0
+Day 3 study hours: 3.2
+Day 4 study hours: 7.8
+Day 5 study hours: 5.0
+Day 6 study hours: 2.5
+Day 7 study hours: 6.5
+
+====================================================
+                PERFORMANCE SUMMARY                 
+====================================================
+Weekly Total Study Hours : 35.50 hrs
+Daily Average Hours      : 5.07 hrs/day
+Peak Study Day           : Day 4 (7.80 hrs)
+
+---------------- VISUAL PROGRESS BAR ----------------
+Day 1 ( 4.50 hrs): ****
+Day 2 ( 6.00 hrs): ******
+Day 3 ( 3.20 hrs): ***
+Day 4 ( 7.80 hrs): *******
+Day 5 ( 5.00 hrs): *****
+Day 6 ( 2.50 hrs): **
+Day 7 ( 6.50 hrs): ******
+-----------------------------------------------------

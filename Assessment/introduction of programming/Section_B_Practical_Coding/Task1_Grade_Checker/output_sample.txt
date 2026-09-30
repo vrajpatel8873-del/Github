@@ -1,0 +1,92 @@
+================================================================================
+SAMPLE PROGRAM RUNS: TASK 1 - GRADE BAND CHECKER
+================================================================================
+
+--- TEST RUN 1: Grade A (>= 90) ---
+$ ./grade_checker
+========================================
+        STUDENT GRADE BAND CHECKER      
+========================================
+Enter student percentage score (0 - 100): 95.5
+
+------------- RESULT -------------
+Percentage Score : 95.50%
+Assigned Grade   : A
+Message          : A — Outstanding performance! Keep up the brilliant work.
+----------------------------------
+
+
+--- TEST RUN 2: Grade B (>= 75) ---
+$ ./grade_checker
+========================================
+        STUDENT GRADE BAND CHECKER      
+========================================
+Enter student percentage score (0 - 100): 78.0
+
+------------- RESULT -------------
+Percentage Score : 78.00%
+Assigned Grade   : B
+Message          : B — Good work! Keep pushing.
+----------------------------------
+
+
+--- TEST RUN 3: Grade C (>= 60) ---
+$ ./grade_checker
+========================================
+        STUDENT GRADE BAND CHECKER      
+========================================
+Enter student percentage score (0 - 100): 63.5
+
+------------- RESULT -------------
+Percentage Score : 63.50%
+Assigned Grade   : C
+Message          : C — Satisfactory effort! Strive for higher milestones.
+----------------------------------
+
+
+--- TEST RUN 4: Grade D (>= 45) ---
+$ ./grade_checker
+========================================
+        STUDENT GRADE BAND CHECKER      
+========================================
+Enter student percentage score (0 - 100): 52.0
+
+------------- RESULT -------------
+Percentage Score : 52.00%
+Assigned Grade   : D
+Message          : D — Needs improvement! Put in extra study hours.
+----------------------------------
+
+
+--- TEST RUN 5: Grade F (< 45) ---
+$ ./grade_checker
+========================================
+        STUDENT GRADE BAND CHECKER      
+========================================
+Enter student percentage score (0 - 100): 35.0
+
+------------- RESULT -------------
+Percentage Score : 35.00%
+Assigned Grade   : F
+Message          : F — Unsatisfactory! Don't give up; seek help and try again.
+----------------------------------
+
+
+--- TEST RUN 6: Boundary Handling (Out of Range: 108.5) ---
+$ ./grade_checker
+========================================
+        STUDENT GRADE BAND CHECKER      
+========================================
+Enter student percentage score (0 - 100): 108.5
+
+[ERROR]: Score 108.50 is outside valid range (0 to 100). Exiting gracefully.
+
+
+--- TEST RUN 7: Boundary Handling (Negative Score: -10) ---
+$ ./grade_checker
+========================================
+        STUDENT GRADE BAND CHECKER      
+========================================
+Enter student percentage score (0 - 100): -10
+
+[ERROR]: Score -10.00 is outside valid range (0 to 100). Exiting gracefully.
