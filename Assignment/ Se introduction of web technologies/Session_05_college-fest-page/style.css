@@ -1,0 +1,62 @@
+/* Fest palette: #1b1f3b (navy), rgb(255, 107, 53) (orange), gold, #fff4e0 (cream), rgb(0, 150, 136) (teal) */
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff4e0;
+  color: #1b1f3b;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  border-bottom: 3px solid gold;
+  padding-bottom: 4px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.highlight {
+  background: gold;
+  padding: 8px 12px;
+}
+
+#contact {
+  border-left: 6px solid rgb(255, 107, 53);
+  padding-left: 16px;
+}
+
+header {
+  padding: 16px 24px;
+  background: #1b1f3b;
+  color: white;
+}
+
+main {
+  padding: 24px;
+}
+
+footer {
+  text-align: center;
+  background: #1b1f3b;
+  color: white;
+  padding: 12px;
+}
+
+footer p {
+  font-style: italic;
+  color: gold;
+  margin: 0;
+}

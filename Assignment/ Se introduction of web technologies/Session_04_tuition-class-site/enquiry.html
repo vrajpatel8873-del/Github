@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enquiry - Gyan Jyoti Tuition Classes</title>
+</head>
+<body>
+  <header>
+    <h1>Gyan Jyoti Tuition Classes</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="faculty.html">Faculty</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <h2>Enquiry Form</h2>
+      <form method="get" action="enquiry.html">
+        <p>
+          <label for="student_name">Student name</label>
+          <input type="text" id="student_name" name="student_name" required minlength="3" title="Enter at least 3 characters">
+        </p>
+        <p>
+          <label for="parent_email">Parent email</label>
+          <input type="email" id="parent_email" name="parent_email" required title="Enter a valid email address">
+        </p>
+        <p>
+          <label for="parent_phone">Parent phone</label>
+          <input type="tel" id="parent_phone" name="parent_phone" required pattern="[0-9]{10}" maxlength="10" title="Enter exactly 10 digits, for example 9000012345">
+        </p>
+        <p>
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" required min="5" max="18" title="Age must be between 5 and 18">
+        </p>
+        <p>
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required>
+            <option value="">Choose a subject</option>
+            <option value="mathematics">Mathematics</option>
+            <option value="science">Science</option>
+            <option value="english">English</option>
+            <option value="gujarati">Gujarati</option>
+            <option value="social-studies">Social Studies</option>
+          </select>
+        </p>
+        <p>
+          Mode:
+          <input type="radio" id="mode_online" name="mode" value="online" checked>
+          <label for="mode_online">Online</label>
+          <input type="radio" id="mode_offline" name="mode" value="offline">
+          <label for="mode_offline">Offline</label>
+        </p>
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="4" cols="40"></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
+      </form>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Gyan Jyoti Tuition Classes</p>
+  </footer>
+</body>
+</html>

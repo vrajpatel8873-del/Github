@@ -1,0 +1,218 @@
+/* Fest palette: #1b1f3b (navy), rgb(255, 107, 53) (orange), gold, #fff4e0 (cream), rgb(0, 150, 136) (teal) */
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff4e0;
+  color: #1b1f3b;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  border-bottom: 3px solid gold;
+  padding-bottom: 4px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.highlight {
+  background: gold;
+  padding: 8px 12px;
+}
+
+#contact {
+  border-left: 6px solid rgb(255, 107, 53);
+  padding-left: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #1b1f3b;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 24px;
+  min-height: 1500px;
+}
+
+footer {
+  text-align: center;
+  background: #1b1f3b;
+  color: white;
+  padding: 12px;
+}
+
+footer p {
+  font-style: italic;
+  color: gold;
+  margin: 0;
+}
+
+/* Session 6: pass cards */
+.pass {
+  box-sizing: border-box;
+  position: relative;
+  width: 220px;
+  padding: 16px;
+  border: 2px solid #1b1f3b;
+  margin: 12px;
+  background: white;
+}
+
+.pass h3 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(255, 107, 53);
+}
+
+.popular-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: gold;
+  color: #1b1f3b;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+}
+
+.register-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(255, 107, 53);
+  color: #1b1f3b;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+
+/* Session 7: flexbox and grid */
+.passes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.slots {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.slot {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  background: gold;
+  padding: 12px;
+}
+
+.slot:first-child {
+  flex: 2;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  gap: 10px;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  border: 1px solid #1b1f3b;
+}
+
+.tile:nth-child(5n + 1) { background: #1b1f3b; color: white; }
+.tile:nth-child(5n + 2) { background: rgb(255, 107, 53); color: #1b1f3b; }
+.tile:nth-child(5n + 3) { background: gold; color: #1b1f3b; }
+.tile:nth-child(5n + 4) { background: #fff4e0; color: #1b1f3b; }
+.tile:nth-child(5n + 5) { background: rgb(0, 150, 136); color: white; }
+
+/* Session 8: responsive design (max-width queries only, desktop is the base) */
+@media (max-width: 768px) {
+  .passes {
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav {
+    margin-top: 8px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 100px);
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  main {
+    padding: 12px;
+  }
+
+  .slots {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 100px);
+  }
+}

@@ -1,0 +1,109 @@
+/* Fest palette: #1b1f3b (navy), rgb(255, 107, 53) (orange), gold, #fff4e0 (cream), rgb(0, 150, 136) (teal) */
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff4e0;
+  color: #1b1f3b;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  border-bottom: 3px solid gold;
+  padding-bottom: 4px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.highlight {
+  background: gold;
+  padding: 8px 12px;
+}
+
+#contact {
+  border-left: 6px solid rgb(255, 107, 53);
+  padding-left: 16px;
+}
+
+header {
+  padding: 16px 24px;
+  background: #1b1f3b;
+  color: white;
+}
+
+main {
+  padding: 24px;
+  min-height: 1500px;
+}
+
+footer {
+  text-align: center;
+  background: #1b1f3b;
+  color: white;
+  padding: 12px;
+}
+
+footer p {
+  font-style: italic;
+  color: gold;
+  margin: 0;
+}
+
+/* Session 6: pass cards */
+.pass {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  padding: 16px;
+  border: 2px solid #1b1f3b;
+  margin: 12px;
+  background: white;
+}
+
+.pass h3 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(255, 107, 53);
+}
+
+.popular-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: gold;
+  color: #1b1f3b;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+}
+
+.register-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(255, 107, 53);
+  color: #1b1f3b;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+}

@@ -1,0 +1,38 @@
+/* PG brand colour: dark enough for white text (contrast about 4.7:1) */
+:root {
+  --pg-brand: #1e8449;
+}
+
+.pg-band {
+  background-color: var(--pg-brand);
+}
+
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.navbar .nav-link.active {
+  border-bottom: 3px solid var(--pg-brand);
+}
+
+.btn.btn-primary {
+  --bs-btn-bg: var(--pg-brand);
+  --bs-btn-border-color: var(--pg-brand);
+  --bs-btn-hover-bg: #186a3b;
+  --bs-btn-hover-border-color: #186a3b;
+  --bs-btn-active-bg: #145a32;
+  --bs-btn-active-border-color: #145a32;
+  background-color: var(--pg-brand);
+  border-color: var(--pg-brand);
+}
+
+.card {
+  --bs-card-border-color: var(--pg-brand);
+  --bs-card-border-width: 2px;
+  border: 2px solid var(--pg-brand);
+}
+
+.site-footer {
+  background-color: var(--pg-brand);
+  color: #ffffff;
+}
