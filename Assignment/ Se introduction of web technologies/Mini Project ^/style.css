@@ -1,0 +1,60 @@
+/* Prevent any horizontal scroll */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Offset anchor scrolling for the sticky navbar */
+section,
+header {
+  scroll-margin-top: 70px;
+}
+
+/* Task 1: Hero background lives only here */
+.hero {
+  padding: 6rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+              linear-gradient(135deg, #1d2b64, #f8cdda);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-tagline {
+  max-width: 640px;
+}
+
+/* Task 2: Highlight the Quarterly card */
+.featured-card {
+  border: 3px solid #ffc107;
+}
+
+/* Task 3: Timetable (fits 360px without scrolling) */
+.timetable {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #adb5bd;
+  padding: 8px 4px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.timetable th {
+  background-color: #1d2b64;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .timetable {
+    font-size: 1rem;
+  }
+
+  .timetable th,
+  .timetable td {
+    padding: 12px 8px;
+  }
+}
